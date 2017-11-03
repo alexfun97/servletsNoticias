@@ -1,0 +1,27 @@
+<!DOCTYPE="html">
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel=stylesheet href="styles/style.css" type="text/css" media=screen> 
+    </head>
+    <body>
+        <div id="divCentral">
+        <h1>Control de articulos</h1>
+        <form method="service" action='http://localhost:8080/alejandro.vera/articulos/servicionoticias.servicioNoticias'>
+            <label>Introduce el nombre por el que te reconoce este sistema:</label>
+            <br><br>
+            <input type="text" name="nickname">
+            <br>
+            <label>Introduce tu contraseña:</label>
+            <br><br>
+            <input type="password" name="password">
+            <br>
+            <label>Selecciona la acción que quieres realizar:</label>
+            <button name="act" type="submit" value="Leer_Articulos">Leer Articulos</button>
+			<button name="act" type="submit" value="Enviar_Articulos">Enviar Articulos</button>
+            <br><br>
+        </form>
+        <h3>Para el envio de artículos se requiere autorización especial</h3>
+        </div>
+    </body>
+</html>
